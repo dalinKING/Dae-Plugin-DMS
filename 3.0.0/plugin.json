@@ -1,0 +1,13 @@
+{
+    "id": "dae-proxy-widget",
+    "name": "dae Proxy Widget",
+    "description": "v3.0 — Native dae proxy management. manages subscriptions, generates config.",
+    "version": "3.0.0",
+    "author": "DMS Plugin System",
+    "icon": "network_check",
+    "type": "widget",
+    "component": "./DaeProxyWidget.qml",
+    "settings": "",
+    "capabilities": ["bar-widget"],
+    "permissions": ["network", "process", "settings_write"]
+}
